@@ -1,0 +1,71 @@
+body 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.textArea
+{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(1, 59, 1);
+    border-radius: 10px;
+    padding-inline-start: 5px;
+    padding-inline-end: 5px;
+}
+
+.author
+{
+    display: block;
+    width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-shadow: 2cm;
+    font-size: large;
+    font-style: normal;
+    -webkit-text-fill-color: darkgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.quote
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+@media (max-width:768px)
+{
+    .quote
+    {
+        width: 80%;
+    }
+}
+.mainContent
+{
+    width:auto;
+    display: block;
+    stroke: rgb(16, 55, 81);
+    border-radius: 5%;
+    -webkit-text-stroke-width: 10%;
+}
+
+.newQuote button
+{
+    background-color: brown;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px;
+    border-color: black;
+    border-radius: 5%;
+    padding: 5px;
+}
