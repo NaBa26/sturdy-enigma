@@ -42,14 +42,6 @@ body
     display: block;
     text-align: center;
 }
-
-@media (max-width:768px)
-{
-    .quote
-    {
-        width: 80%;
-    }
-}
 .mainContent
 {
     width:auto;
