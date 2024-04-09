@@ -6,20 +6,30 @@ body
     height:100vh;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
 }
 
 
-.textArea
+.writtenContent
 {
-    width: auto;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    width: auto;
     border: 2px solid rgb(1, 59, 1);
     border-radius: 10px;
     padding-inline-start: 5px;
     padding-inline-end: 5px;
 }
 
+.partition-line
+{
+    height:2px;
+    background: linear-gradient(to right, transparent, brown,transparent);
+}
 .author
 {
     display: block;
@@ -28,7 +38,7 @@ body
     margin-right: auto;
     text-align: center;
     text-shadow: 2cm;
-    font-size: large;
+    font-size: medium;
     font-style: normal;
     -webkit-text-fill-color: darkgreen;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -42,10 +52,13 @@ body
     display: block;
     text-align: center;
 }
+
 .mainContent
 {
     width:auto;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     stroke: rgb(16, 55, 81);
     border-radius: 5%;
     -webkit-text-stroke-width: 10%;
@@ -53,11 +66,20 @@ body
 
 .newQuote button
 {
-    background-color: brown;
+    display: block;
+    margin: 0 auto;
+    width: 150px; 
+    background-color: rgb(198, 108, 108);
+    color: white; 
     font-weight: 400;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 5px;
-    border-color: black;
-    border-radius: 5%;
-    padding: 5px;
+    border: 2px solid gray; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+}
+
+button:hover
+{
+    background-color: rgb(168, 88, 88);
 }
