@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="convertor.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="Heading">Base Convertor</h1>
+    <div class="container">
+        <div id="selectedBaseContainer">
+        <label for="labelselectedBase">Initial Base: </label>
+        <select id="selectedBase">
+            <option>DECIMAL</option>
+            <option>HEXADECIMAL</option>
+            <option>BINARY</option>
+            <option>OCTAL</option>
+        </select>
+        </div>
+        <br />
+        <div id="enteredValueContainer">
+            <span id="enteredValue">Enter the value: </span>
+            <input type="text" id="enteredValue">
+        </div>
+        <br />
+        <div id="resultBaseContainer">
+        <label for="labelresultBase">Convert to: </label>
+        <select id="resultBase">
+            <option>HEXADECIMAL</option>
+            <option>BINARY</option>
+            <option>OCTAL</option>
+            <option>DECIMAL</option>
+        </select>
+        </div>
+        <br />
+        <div id="resultValueContainer">
+            <span id="resultValue">Result: </span>
+            <input type="text" id="resultValue">
+        </div>
+        <div class="buttonContainer">
+        <button id="button">Convert</button>
+        </div>
+    </div>
+</body>
+</html>

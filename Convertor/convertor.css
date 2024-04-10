@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    border: 2px solid rgb(42, 0, 42);
+    padding: 20px;
+    background-color: rgb(219, 254, 219);
+    border-radius: 8px;
+}
+
+h1#Heading {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: green;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+label, span {
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+#button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
