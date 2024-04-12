@@ -10,7 +10,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 id="Heading">Base Convertor</h1>
+    <div class="headingContainer">
+        <h1 id="Heading">Base Convertor</h1>
+    </div>
     <div class="container">
         <div id="selectedBaseContainer">
         <label for="labelselectedBase">Initial Base: </label>
@@ -23,8 +25,8 @@
         </div>
         <br />
         <div id="enteredValueContainer">
-            <span id="enteredValue">Enter the value: </span>
-            <input type="text" id="enteredValue">
+            <span id="enteredValueSpan">Enter the value: </span>
+            <input type="text" id="enteredValueInput">
         </div>
         <br />
         <div id="resultBaseContainer">
@@ -38,12 +40,13 @@
         </div>
         <br />
         <div id="resultValueContainer">
-            <span id="resultValue">Result: </span>
-            <input type="text" id="resultValue">
+            <span id="resultValueSpan">Result: </span>
+            <input type="text" id="resultValueInput">
         </div>
         <div class="buttonContainer">
         <button id="button">Convert</button>
         </div>
     </div>
+    <script src="convertor.js"></script>
 </body>
 </html>

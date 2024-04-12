@@ -10,29 +10,32 @@ body {
 }
 
 .container {
-    border: 2px solid rgb(42, 0, 42);
+    border: 5px solid rgb(60, 0, 62);
     padding: 20px;
-    background-color: rgb(219, 254, 219);
     border-radius: 8px;
 }
 
-h1#Heading {
+.headingContainer {
     position: absolute;
     top: 10px;
     left: 0;
     right: 0;
     z-index: 1;
     background-color: green;
-    padding: 5px;
-    border-radius: 4px;
 }
+
+#Heading {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    
+}
+
 
 label, span {
     font-weight: bold;
 }
 
-input[type="text"],
-select {
+input,select {
     width: 100%;
     padding: 8px;
     margin: 5px 0;
@@ -41,21 +44,19 @@ select {
     box-sizing: border-box;
 }
 
-input[type="text"]:focus,
+input:focus,
 select:focus {
-    outline: none;
-    border-color: #007bff;
+    outline: 5px;
+    border-color: green;
 }
 
-#button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
+.buttonContainer button{
+    border-width: 1px solid green;
+    padding: 10px;
     border-radius: 4px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: green;
 }
